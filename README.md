@@ -1,7 +1,5 @@
----
-title: "Advent of Code 2018"
-author: "Ivan Bratović"	
----
+# Advent of Code 2018
+### **by Ivan Bratović**
 
 ## Advent of Code 2018 repository for all puzzles.
 
