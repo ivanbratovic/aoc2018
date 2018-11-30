@@ -1,5 +1,5 @@
 # Advent of Code 2018
-### **by Ivan Bratović**
+### *by Ivan Bratović*
 
 ## Advent of Code 2018 repository for all puzzles.
 
