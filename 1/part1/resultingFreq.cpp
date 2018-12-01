@@ -37,4 +37,8 @@ int main(void){
 	// Output the final frequency
 	std::cout << frequency << std::endl;
 	return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b71be9aeb8d903931db61bd2c86705e23ca644d0
