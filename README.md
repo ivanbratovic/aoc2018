@@ -9,9 +9,15 @@ Writing this before AoC starts, I predict I'll use C++, Python, Java and R most 
 
 ***
 # Puzzle 1
-*Programming language used:*
+*Programming language used:* C++
 
-*Puzzle description:*
+*Puzzle description:* This first one is rather simple, and boils down into a parsing problem.
+You are given a list of numbers, prefixed by a unary operator, either a `+` or a `-`. The puzzle was split into two parts:
+
+1. The first part was to find the sum of all the numbers (or the 'frequency') in the input list.
+2. The second part was a little bit more complicated, as it involved looping the input list, and adding and
+and subtracting the numbers (just like in the 1st part) but keep doing so until a given partial sum was reached
+twice.
 
 ***
 # Puzzle 2
