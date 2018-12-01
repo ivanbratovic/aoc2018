@@ -8,6 +8,7 @@
 	and the rest of the line is an integer to increment the frequency
 	by.
 
+	Outputs the resulting frequency at the end of the input.
 */
 int main(void){
 	int frequency = 0;
@@ -23,7 +24,7 @@ int main(void){
 		op = line.at(0);
 		line.erase(0,1);
 		lineValue = std::stoi(line);
-
+		// Incrementing frequency based on the operator
 		switch(op){
 			case '+':
 				frequency += lineValue;
@@ -33,5 +34,7 @@ int main(void){
 				break;
 		}
 	}
+	// Output the final frequency
 	std::cout << frequency << std::endl;
+	return 0;
 }
