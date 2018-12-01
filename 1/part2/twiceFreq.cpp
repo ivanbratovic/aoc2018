@@ -26,7 +26,6 @@ int main(void){
 	// Integer value that counts the number of lines in the input.
 	int maxLoops;
 
-
 	// Generating the steps vector
 	while(!std::cin.eof()){
 		// Read lines while there is input
@@ -46,6 +45,7 @@ int main(void){
 				break;
 		}
 	}
+
 	maxLoops = steps.size();
 	i = 0;
 	while(true){
